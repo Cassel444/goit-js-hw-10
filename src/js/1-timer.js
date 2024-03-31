@@ -33,7 +33,7 @@ const options = {
     },
 };
 const iziToastOptions = {
-    title: 'ERROR',
+    title: '✖',
     titleColor: '#FFFFFF',
     titleSize: '24px',
     message: 'Please choose a date in the future',
@@ -43,7 +43,7 @@ const iziToastOptions = {
     timeout: 4000,
     overlay: true,
     overlayClose: true,
-    position: 'topRight',
+    position: 'topCenter',
 };
 
 function updateClock({ days, hours, minutes, seconds }) {
