@@ -1,5 +1,5 @@
 
-input {
+.flatpickr-input {
     background: #fff;
     border: 1px solid #808080;
     border-radius: 4px;
@@ -22,7 +22,7 @@ input:active {
     border: 1px solid #4e75ff;
     color: #000;
 }
-button {
+button[data-start] {
     border-radius: 8px;
     border: none;
     padding: 8px 16px;
@@ -36,10 +36,10 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
 }
-button:hover {
+button[data-start]:hover {
     background: #6c8cff;
 }
-button:disabled {
+button[data-start]:disabled {
     background-color: #d3d3d3;
 }
 .timer {
